@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.a{
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+p {
+    font-size: 16px;
+    color: #8b6060;
+    margin-bottom: 20px;
+}
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.download {
+    background-color: #007bff;
+    color: white;
+}
+
+.learnmore {
+    background-color: #f8f9fa;
+    color: black;
+    border: 1px solid #ccc;
+}
+.copy {
+    font-size: 14px;
+    color: #888;
+}
