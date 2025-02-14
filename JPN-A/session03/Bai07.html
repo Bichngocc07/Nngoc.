@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label >Họ và tên: </label>
+            <input type="Họ và tên" id="Họ và tên" name="Họ và tên" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="dob">Ngày sinh: </label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Giới tính: </label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Nữ</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="major">Chuyên ngành: </label>
+            <input type="text" id="major" name="major" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="year">Năm nhập học: </label>
+            <input type="number" id="year" name="year" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="gpa">Điểm GPA: </label>
+            <input type="number" step="0.01" id="gpa" name="gpa" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="address">Địa chỉ: </label>
+            <textarea name="address" id="address" rows="2" required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="class">Lớp học: </label>
+            <select id="class" name="class">
+                <option value="lop1">Lớp 1</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="register-date">Ngày đăng ký học: </label>
+            <input type="datetime-local" id="register-date" name="register-date" required>
+        </div>
+        
+        <button>Gửi thông tin</button>
+    </form>
+</body>
+</html>

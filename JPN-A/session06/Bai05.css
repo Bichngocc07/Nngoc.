@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+ }
+.title{
+    padding: 10px;
+    color: white;
+    background-color: rgb(68, 178, 17);
+}
+.title2{
+    display: inline-block;
+    width: 80%;
+}
+.title1{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.welcome{
+    color: hwb(0 0% 100%);
+    text-align: center;
+}
+.We{
+    color: hwb(0 0% 100%);
+    text-align: center;
+}
+.button{
+    text-align:center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(47, 255, 0);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border:0;
+    font-weight: 700;
+    position: relative;
+    left:700px;
+}
+.Feature button{
+        margin-top: 13px;
+        width: 500px;
+        padding: 10px;
+        background-color: rgb(207, 72, 72);
+        color: aliceblue;
+        margin-left: 5px;
+
+}
+.Contact{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding:5px;
+}

@@ -1,0 +1,22 @@
+
+.khoa{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 104);
+}
+.tuvan{
+    background-color: rgb(173, 52, 52);
+    color: white;
+    padding: 10px;
+}
+.chac{
+    color: rgb(6, 6, 104);   
+}
+.kiem{
+    padding: 10px;
+}
+.e{
+    background-color: rgb(238, 232, 225);
+    padding: 50px;
+    height: 310px;
+    width: 550px;
+}

@@ -1,0 +1,33 @@
+.content{
+    background-color: rgb(18, 212, 219);
+    color: hsl(208, 100%, 97%);
+    text-align: center;
+}
+.xinchao{
+    margin-left: 60px;
+    width: 40%;
+    position: relative;
+    bottom: 50px;
+}
+.file{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 34px;
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.file p{
+    margin-top: 40px;
+    margin-left: 34px;
+    font-weight: bold;
+}
+.ten{
+    background-color: bisque;
+    text-align: center;
+}

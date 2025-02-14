@@ -1,0 +1,7 @@
+body{
+    display: flex;
+}
+.phim{
+    margin-left: 50px;
+    width: 35%;
+}

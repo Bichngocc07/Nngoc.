@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Box</title>
+    <link rel="stylesheet" href="baitap07.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>New message to @mdo</h2>
+            <label for="recipient">Recipient:</label><br>
+            <input type="text" id="recipient" value="@mdo" disabled><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message"></textarea>
+            <div class="modal-actions">
+                <button class="close-btn" id="closeButton">Close</button>
+                <button class="send-btn">Send message</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

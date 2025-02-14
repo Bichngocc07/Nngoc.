@@ -1,0 +1,51 @@
+.title1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: aquamarine;
+}
+.title1 a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.title2{
+    background-color: aqua;
+    padding: 15px;
+    display: flex;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.title2 p{
+    margin-top: 40px;
+    margin-left: 34px;
+    font-weight: bold;
+
+}
+.title3{
+    padding: 20px;
+}
+.title3 button{
+    margin-top: 13px;
+    width: 355px;
+    padding: 10px;
+    background-color: rgb(207, 72, 72);
+    color: aliceblue;
+}
+.footer{
+    background-color: bisque;
+    text-align: center;
+}

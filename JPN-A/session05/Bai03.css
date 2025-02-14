@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    background-color: rgb(249, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(101, 101, 5);
+}
+.usern{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+}
+td{
+    padding: 15px;
+}
+.admin{
+    background-color: white;
+}

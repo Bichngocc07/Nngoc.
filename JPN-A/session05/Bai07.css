@@ -1,0 +1,28 @@
+.view{
+    background-color: rgb(14, 230, 122);
+    color: rgb(247, 247, 247);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    background-color: rgb(249, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xanh{
+    background-color: #21fd37f6;
+    color: aliceblue;
+}
+.vàng{
+    background-color: rgb(229, 241, 10);
+    color: black;
+}
+.đỏ{
+    background-color: crimson;
+    color: aliceblue;
+}
+th{
+    background-color: hsl(212, 92%, 46%);
+    color: white;
+    padding: 15px;
+}

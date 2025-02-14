@@ -1,0 +1,10 @@
+.c{
+    color:rgb(241, 51, 114);
+}
+.b{
+    background-color: rgb(132, 137, 163);
+    border: 2px solid red
+    padding: 50px
+    width: 500px;
+    text: align 50px;
+}

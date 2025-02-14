@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hoan{
+    text-align: center;
+    background-color: rgb(238, 212, 212);
+    padding: 50px
+    width: 500px;
+    text: align 50px;
+    border-radius:5px;
+}
+.b{
+    color: rgb(151, 26, 26);
+}

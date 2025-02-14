@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+mark{
+    color: #f80000;
+    background-color:rgb(234, 231, 227) ;
+}
+.body1{
+    border: 5px solid #35f010;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 20px;
+}
+.body2{
+    background-color: lightgray;
+    padding: 10px;
+    width: 850px;
+    border-radius: 5px;
+}
+.body3{
+    background-color: white;
+    width: 800px;
+    margin-left: 15px;
+    padding: 10px;
+    border-left: 5px solid green;
+}
+.text1{
+    color: rgb(252, 0, 0);
+}
+.text2{
+    color: #14de14;
+}
+.text3{
+    color: blue;
+}
+p{
+    margin-left: 30px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-weight: 700;
+    opacity: 0.5;
+}
