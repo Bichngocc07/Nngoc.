@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.nhap {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+}
+.s {
+    display: flex;
+    gap: 10px;
+}
+.icons i {
+    font-size: 18px;
+    color: #555;
+}
