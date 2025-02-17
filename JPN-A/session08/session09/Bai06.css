@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    text-align: center;
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+    padding: 50px;
+    margin: 10px;
+    background-color: rgb(224, 12, 12);
+}
+.Small{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 91, 145);
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
