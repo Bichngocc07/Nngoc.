@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    border: 1px solid black;
+    padding: 30px 100px;
+    margin: 10px;
+    background-color: rgb(191, 32, 231);
+}
