@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0 10px 40px #000000;
+    
+}
+.item{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000000;
+    background-color: #1cd30b;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inbox{
+    height: 50px;
+    width: 450px;
+    border: 1px solid #000000;
+    background-color: #1cd30b;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin: 300px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .item{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(141, 228, 228);
+    text-align: center;
+    line-height: 50px;
+}
