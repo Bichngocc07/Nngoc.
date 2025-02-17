@@ -21,8 +21,9 @@ body{
     width: 200px;
     height: 50px;
     border: 1px solid #000000;
-    background-color: #1cd30b;
+    background-color: #000000;
     margin: 5px auto;
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +32,10 @@ body{
     height: 50px;
     width: 450px;
     border: 1px solid #000000;
-    background-color: #1cd30b;
+    background-color: #000000;
     margin: 5px auto;
     display: flex;
+    color: aliceblue;
     justify-content: center;
     align-items: center;
 }
