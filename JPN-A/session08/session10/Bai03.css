@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 400px;
+    background: #efecec;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.category {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.content {
+    padding: 15px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.date {
+    font-size: 12px;
+    color: gray;
+}
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.des{
+    font-size: 14px;
+    color: #555;
+}

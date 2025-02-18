@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.category-item {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+.category-item img {
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+}
+.category-item p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.football{
+    width: 150px;
+    padding: 1px;
+    background-color: rgb(147, 118, 118);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.basketbal{
+    width: 150px;
+    padding: 1px;
+    background-color: rgb(147, 118, 118);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.sport{
+    width: 150px;
+    padding: 1px;
+    background-color: rgb(147, 118, 118);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.table{
+    width: 150px;
+    padding: 1px;
+    background-color: rgb(147, 118, 118);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
