@@ -1,28 +1,85 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Grid Layout</title>
-    <link rel="stylesheet" href="Bai003.css">
-    <style>
-    </style>
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<body>
-    <header>
-        <div class="logo"></div>
-    </header>
-    <main class="container">
-        <div class="header-item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item large"></div>
-        <div class="item large"></div>
-        <div class="footer-item"></div>
-    </main>
-</body>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-</html>
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background: pink;
+    border-radius: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-item {
+    grid-column: span 4;
+    background: #99004d;
+    height: 150px;
+}
+
+.item {
+    background: #ff6699;
+    height: 100px;
+}
+
+.item.large {
+    grid-column: span 2;
+}
+
+.item.medium {
+    grid-column: span 1;
+}
+
+.footer-item {
+    grid-column: span 4;
+    background: #cc6699;
+    height: 200px;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-item,
+    .footer-item {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-item,
+    .footer-item {
+        grid-column: span 1;
+    }
+}
