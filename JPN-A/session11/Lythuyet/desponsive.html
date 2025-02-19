@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .desktop {
+            background-color: red;
+        }
+
+        /* RESPONSIVE */
+        /* màn hình máy tính bảng */
+        @media screen and (max-width:1200px) {
+            .desktop {
+                background-color: green;
+            
+
+            }
+        }
+        /* màn hình điện thoại */
+         @media screen and (max-width:768px) {
+            .desktop {
+                background-color: violet;
+            }
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="desktop">
+        màn hình máy tính!
+    </div>
+    <!-- 
+    thầy muốn khi hiển thị ở trên màn hình máy tính bảng nó sẽ có
+    màu xanh
+    khi trên màn hình điện thoại màu tím
+    -->
+</body>
+
+</html>

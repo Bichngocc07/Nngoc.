@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* thiết kế trên màn hình điện thoại */
+        .mobile{
+            background-color: red;
+        }
+
+        /* màn hình máy tính bảng */
+        @media screen and (min-width:768px) { /* >=768px */
+            .mobile{
+                background-color: green;
+            }
+        }
+        /* màn hình máy tính */
+        @media screen and (min-width:1200px) {
+            .mobile{
+                background-color: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        mobile
+     -->
+        <div class="mobile">
+            thiết kế web trên màn hình điện thoại trước
+        </div>
+</body>
+</html>
